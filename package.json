@@ -4,7 +4,7 @@
   "description": "Pauls Fastify API check",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon iorder-checker-api",
+    "start": "nodemon ./src/index.js",
     "test": "test"
   },
   "repository": {
