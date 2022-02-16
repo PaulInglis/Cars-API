@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 
 // Connect to DB
 mongoose
-  .connect(
-    "mongodb+srv://iorder-checker:ejujNGa9dFDankni@cluster0.tmssj.mongodb.net/test"
-  )
+  .connect(process.env.MONGO_DB)
   .then(() => console.log("MongoDB connected…"))
   .catch((err) => console.log(err));
 
