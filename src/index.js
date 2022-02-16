@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 // Require external modules
 const mongoose = require("mongoose");
 
